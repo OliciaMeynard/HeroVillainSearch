@@ -46,6 +46,10 @@ const controlSearch = async () => {
   }
 };
 
+const newFeature = () => {
+  console.log('WELCOME');
+};
+
 const controlPagination = (goToPage) => {
   ResultsView.render(model.getSearchViewPage(goToPage));
   PaginationView.render(model.state.searchResults);
@@ -55,7 +59,7 @@ const init = () => {
   CharacterView.addHandlerRender(controlCharacterInfo);
   searchView.addHandlerSearch(controlSearch);
   PaginationView.addHandlerClick(controlPagination);
-  console.log('Welcome');
+  newFeature();
 };
 
 init();
