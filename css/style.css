@@ -120,7 +120,7 @@ body {
 /*********************************/
 /*******SEARCH RESULTS ***********************/
 .search-results {
-  background-color: white;
+  background: rgb(184, 181, 181);
   max-width: 100%;
   display: flex;
   flex-direction: column;
@@ -208,7 +208,8 @@ body {
 }
 
 .character-info {
-  background-color: #9b9b9b;
+  background-color: rgb(184, 181, 181);
+
   display: flex;
   width: 100%;
 }
@@ -299,15 +300,15 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px vrgb(92, 63, 63);
+  box-shadow: inset 0 0 6px rgb(184, 181, 181);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(223, 167, 167);
+  background-color: rgb(233, 213, 213);
   outline: none;
   border-radius: 1rem;
 }
 
 ::-webkit-scrollbar-track {
-  background: rgb(92, 63, 63);
+  background: rgb(184, 181, 181);
 }

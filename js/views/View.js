@@ -28,7 +28,7 @@ export default class View {
   renderSpinner() {
     const markUp = `
     <div class="spinner">
-    <img src="spinner.716aa354.png" alt="">
+    <img src="spinner.13a1d5de.png" alt="">
      </div>
     `;
     this._clear();
