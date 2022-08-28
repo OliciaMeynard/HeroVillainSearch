@@ -1,0 +1,16 @@
+{
+  "name": "hero-villain-project",
+  "version": "1.0.0",
+  "description": "Hero Villain DC Marvel character search",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Meynard",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.24.1",
+    "parcel": "^2.7.0",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
